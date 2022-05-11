@@ -6,12 +6,19 @@ use ThangPhu\UnlockOOP\Animal;
 
 class Pig implements Animal
 {
+    /**
+     * @return mixed|void
+     */
     function voice()
     {
-        echo 'op op';
+        return 'op op';
     }
+
+    /**
+     * @return mixed|void
+     */
     function color()
     {
-        echo 'pink';
+        return 'pink';
     }
 }

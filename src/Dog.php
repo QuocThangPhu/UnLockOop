@@ -6,12 +6,19 @@ use ThangPhu\UnlockOOP\Animal;
 
 class Dog implements Animal
 {
+    /**
+     * @return string
+     */
     function voice()
     {
-        echo 'go go';
+        return 'go go';
     }
+
+    /**
+     * @return mixed|void
+     */
     function color()
     {
-        echo 'black';
+        return 'black';
     }
 }
