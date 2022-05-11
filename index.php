@@ -8,21 +8,21 @@ use ThangPhu\UnlockOOP\Shark;
 use ThangPhu\UnlockOOP\Dog;
 
 $Zhu_Bajie = new Pig();
-$Zhu_Bajie->voice();
-$Zhu_Bajie->color();
+echo $Zhu_Bajie->voice();
+echo $Zhu_Bajie->color();
 echo "\n";
 
 $Spike = new Dog();
-$Spike->voice();
-$Spike->color();
+echo $Spike->voice();
+echo $Spike->color();
 echo "\n";
 
 $babyShark = new Shark();
 $babyShark->setName('do do do');
-$babyShark->getName();
+echo $babyShark->getName();
 echo "\n";
 $babyShark->setPlace('ocean');
-$babyShark->getPlace();
+echo $babyShark->getPlace();
 echo "\n";
 $babyShark->setWeight('500kg');
 echo $babyShark->getWeight();
